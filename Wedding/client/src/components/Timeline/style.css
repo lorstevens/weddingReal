@@ -1,0 +1,139 @@
+.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: 1em/1 'Open Sans', sans-serif;
+    color: #555;
+  }
+  
+  
+  
+  ul {
+    width: 800px;
+    margin: 40px auto;
+    list-style: none;
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  li:last-child {
+    border: 0;
+  }
+  
+  li p {
+    display: block;
+    padding: 20px;
+    padding-left: 50px;
+    line-height: 1.4;
+  }
+  
+  li p:nth-child(1) {
+    position: relative;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #565656;
+  }
+  
+  li p:nth-child(1):after {
+    content: '';
+    position: absolute;
+    top: 28px;
+    right: -12px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #daad2c9e;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  
+  li p:nth-child(2) {
+    flex: 1;
+    font-size: 20px;
+    border-left: 5px solid #daad2c9e;
+  }
+  
+  li p span {
+    display: block;
+    margin: 5px 0 0;
+    font-size: 12px;
+    /* font-style: italic; */
+    
+  }
+  
+  
+  .whatBlock ul{
+  display: flex;
+  margin: 5px 0 0;
+  }
+  
+  .whatBlock li{
+  margin-right: 10px;
+  }
+  
+  .whatBlock a{
+  color: #bdc7ac;
+  }
+  
+  .what2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  color: #3D518C;
+  }
+  
+  .time{
+  font-weight: 700;
+  font-size: 20px;
+  }
+  
+  .details{
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    color: #A7BED3
+  }
+  
+  .details2{
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+  }
+  
+  #plant{
+  position: absolute;
+  top:30%;
+  opacity: .09;
+  }
+  
+  #plant2{
+  position: absolute;
+  top:50%;
+  right:10%;
+  opacity: .09;
+  width: 10%;
+  transform: rotate(-52deg);
+  }
+  
+  #plant3{
+  position: absolute;
+  bottom: 65%;
+  right: 94%;
+  opacity: .09;
+  width: 15%
+  }

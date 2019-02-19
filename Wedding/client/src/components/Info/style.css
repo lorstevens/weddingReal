@@ -1,0 +1,35 @@
+.registry{
+    background:#ffffff;
+    padding:50px;
+    width: 500px;
+}
+
+.registry h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    color: #3D518C;
+    margin-bottom: 0px;
+}
+
+
+.registry p{
+    line-height: 1.2;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

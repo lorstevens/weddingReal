@@ -1,0 +1,19 @@
+
+.header-box{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.headings{
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    color: #555B6E;
+}
+
+
+a{
+    color: #bdc7ac;
+}
