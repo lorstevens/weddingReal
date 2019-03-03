@@ -7,11 +7,13 @@ export const Nav = props =>
     (
         <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo left">{props.title}</a>
+         
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Timeline</a></li>
-            <li><a href="badges.html">Accomodations</a></li>
-            <li><a href="collapsible.html">Registry</a></li>
+            <li><a href="#timeLine">Timeline</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#gifts">Registry</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
           </ul>
         </div>
       </nav>

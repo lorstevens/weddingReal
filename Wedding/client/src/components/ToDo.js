@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 
 import Input from './Input';
@@ -10,14 +10,14 @@ class Todo extends Component {
     todos: []
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getTodos();
   }
 
   getTodos = () => {
     axios.get('/api/todos')
       .then(res => {
-        if(res.data){
+        if (res.data) {
           this.setState({
             todos: res.data
           })
@@ -40,11 +40,13 @@ class Todo extends Component {
   render() {
     let { todos } = this.state;
 
-    return(
-      <div>
-        <h1>My Todo(s)</h1>
-        <Input getTodos={this.getTodos}/>
-    
+    return (
+      <div id="rsvp" className='container'>
+        <div className='header-box'>
+          <h3 className='headings'>RSVP</h3>
+        </div>
+        <Input getTodos={this.getTodos} />
+
       </div>
     )
   }

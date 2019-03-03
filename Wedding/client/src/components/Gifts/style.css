@@ -1,0 +1,49 @@
+
+.thanks-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+#whiteHeading{
+    color:#fff;
+}
+.question-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.question-header h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    color: #3D518C;
+}
+
+.registry-container{
+    background-color: #A7BED3;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 10px;
+}
+
+.logo{
+    max-width: 150px;
+    filter: brightness(0) invert(1);
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px
+}

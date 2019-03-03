@@ -4,7 +4,7 @@ import './style.css'
 export const Info= () => {
     return (
 
-        <div className="block-container" style={{ backgroundImage: "url(/assets/wildflowers.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: 'center' }}>
+        <div id="info" className="block-container" style={{ backgroundImage: "url(/assets/wildflowers.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: 'center' }}>
 
             <div className="registry">
 
@@ -15,7 +15,12 @@ export const Info= () => {
                 </div>
 
                 <div><h4>Accomodations</h4>
-                <p>Wedding guests can park at The Quarters parking garage, located at 2222 Rio Grande Street, about 1 1⁄2 blocks away. There is also ample street parking around the venue.</p>
+                <p>There are many hotels near the venue. We recommend the following hotels: </p>
+                
+                <p className="hotel"><i>Hampton Inn & Suites | 1701 Lavaca St</i></p>
+                <p className="hotel"><i>Double Tree by Hilton | 1617 N Interstate Hwy 35</i></p>
+                <p className="hotel"><i>AT&T Conference Center | 1900 University Ave</i></p>
+
             </div>
 
             <div><h4>Attire</h4>

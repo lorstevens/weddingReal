@@ -40,8 +40,8 @@ class Input extends Component {
     let { action, firstName, lastName } = this.state;
     return (
       <div>
-        <input type="text" onChange={this.handleChange} value={firstName} name="firstName" />
-        <input type="text" onChange={this.handleChange} value={lastName} name="lastName" />
+        <input type="text" onChange={this.handleChange} value={firstName} name="firstName" placeholder="First Name"/>
+        <input type="text" onChange={this.handleChange} value={lastName} name="lastName" placeholder="Last Name"/>
         <input type="text" onChange={this.handleChange} value={action} name="action" />
         <button onClick={this.addTodo}>RSVP</button>
       </div>

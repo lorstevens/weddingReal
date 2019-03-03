@@ -115,24 +115,27 @@
     font-style: italic;
   }
   
-  #plant{
-  position: absolute;
-  top:30%;
-  opacity: .09;
+  #plant1{
+    position: absolute;
+    top: 80%;
+    opacity: .09;
+    right: 35%;
+    width: 99px;
   }
   
   #plant2{
-  position: absolute;
-  top:50%;
-  right:10%;
-  opacity: .09;
-  width: 10%;
-  transform: rotate(-52deg);
+    position: absolute;
+    top: 38%;
+    right: 3%;
+    opacity: .09;
+    width: 10%;
+    -webkit-transform: rotate(-52deg);
+    transform: rotate(3deg);
   }
   
   #plant3{
   position: absolute;
-  bottom: 65%;
+  bottom: 78%;
   right: 94%;
   opacity: .09;
   width: 15%

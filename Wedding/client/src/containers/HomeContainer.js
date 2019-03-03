@@ -5,10 +5,10 @@ import {Header} from '../components/Header/Header'
 // import {Form} from '../components/Form/Form'
 import {Footer} from '../components/Footer/Footer'
 import {Nav} from '../components/Nav/Nav'
-import {Questions} from '../components/Questions/Questions'
+import {Gifts} from '../components/Gifts/Gifts'
 import {TimeLine} from '../components/Timeline/Timeline'
 import {Info} from '../components/Info/Info'
-import {Slider} from '../components/Slider/Slider'
+import {AboutUs} from '../components/AboutUs/AboutUs'
 import Todo from '../components/ToDo';
 
 
@@ -20,8 +20,8 @@ export class HomeContainer extends Component {
             <Header />
             <TimeLine />
             <Info/>
-            <Slider/>
-            <Questions/>
+            <AboutUs/>
+            <Gifts/>
             <Todo/>
             <Footer/>
             </div>

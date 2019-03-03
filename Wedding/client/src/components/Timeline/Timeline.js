@@ -4,7 +4,7 @@ import '../../styles/theme.css'
 
 export const TimeLine = () => {
     return (
-        <div className='container small-container'>
+        <div className='container small-container' id="timeLine">
 
             <div className='header-box'>
                 <h3 className='headings' >Wedding Day Timeline</h3>
@@ -18,7 +18,7 @@ export const TimeLine = () => {
                         <span className='details'>The Mansion, 2312 San Gabriel St, Austin, TX 78705</span>
                         <span className='details2'>Also called the Texas Federation of Women's Club. Get ready for a little bit of class!</span>
                         <ul>
-                            <li className="details"> <img src="/assets/directions.png"/> <a href="https://goo.gl/maps/v6hRHq1yJiF2">Directions to Venue</a> 
+                            <li className="details"> <img src="/assets/directions.png" alt="directions"/> <a target="_blank" href="https://goo.gl/maps/v6hRHq1yJiF2">Directions to Venue</a> 
                             </li>
                         </ul>
                      </p>
@@ -57,8 +57,9 @@ export const TimeLine = () => {
             </ul>
 
          
-            <img id="plant2" src = "/assets/plant3.png"/>
+            <img id="plant2" src = "/assets/plant1.png"/>
             <img id="plant3" src = "/assets/plant3.png"/>
+            <img id="plant1" src = "/assets/plant3.png"/>
 
 
 
