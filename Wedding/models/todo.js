@@ -14,6 +14,10 @@ const TodoSchema = new Schema({
   lastName: {
     type: String,
     required: [true, 'The todo text field is required']
+  },
+  rsvp: {
+    type: String,
+    required: [true, 'The todo text field is required']
   }
 })
 

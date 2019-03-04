@@ -4,8 +4,8 @@ import './style.css'
 export const Footer = () => {
     return (
         <div className="footer-container">
-            <div>Made by Lorna Stevens
-        </div>
+            <p>Made by Lorna Stevens
+        </p>
         </div>
     )
 }

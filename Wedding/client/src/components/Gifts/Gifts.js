@@ -5,13 +5,13 @@ import '../../styles/theme.css'
 export const Gifts = () => {
     return (
         <div id="gifts" className="registry-container">
-            <div className='container'>
+            <div className='container' id='gift-container'>
 
                 <div className='header-box'>
                     <h3 className='headings' id="whiteHeading" >What About Gifts?</h3>
                 </div>
 
-                <div className="thanks-div">
+              
                     <div className='thanks-box'>
 
 
@@ -19,7 +19,7 @@ export const Gifts = () => {
                         <p>Your presence on our big day is enough, but if you'd like to give us a gift, we are registered at the links below. <span style={{'fontWeight': '700'}}>THANK YOU!</span> </p>
 
                     </div>
-                </div>
+                
 
                 <div className="logos">
                     <a target="blank" href="https://www.honeyfund.com/wedding/AndrewLorna"><img className="logo" src='/assets/honeyfund-logo.png' /></a>

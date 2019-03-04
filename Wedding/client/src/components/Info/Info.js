@@ -4,7 +4,7 @@ import './style.css'
 export const Info= () => {
     return (
 
-        <div id="info" className="block-container" style={{ backgroundImage: "url(/assets/wildflowers.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: 'center' }}>
+        <div id="info" className="block-container" style={{ backgroundImage: "url(/assets/ivy.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: 'center' }}>
 
             <div className="registry">
 
@@ -15,7 +15,7 @@ export const Info= () => {
                 </div>
 
                 <div><h4>Accomodations</h4>
-                <p>There are many hotels near the venue. We recommend the following hotels: </p>
+                <p>There are many hotels near the venue. We recommend the following: </p>
                 
                 <p className="hotel"><i>Hampton Inn & Suites | 1701 Lavaca St</i></p>
                 <p className="hotel"><i>Double Tree by Hilton | 1617 N Interstate Hwy 35</i></p>

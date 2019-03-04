@@ -9,7 +9,7 @@ import {Gifts} from '../components/Gifts/Gifts'
 import {TimeLine} from '../components/Timeline/Timeline'
 import {Info} from '../components/Info/Info'
 import {AboutUs} from '../components/AboutUs/AboutUs'
-import Todo from '../components/ToDo';
+import Todo from '../components/Form/ToDo';
 
 
 export class HomeContainer extends Component {

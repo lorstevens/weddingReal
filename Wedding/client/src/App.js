@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //Containers
 import {HomeContainer} from './containers/HomeContainer'
+import {Success} from './containers/Success'
 
 
 const App = () =>
@@ -11,6 +12,7 @@ const App = () =>
     <div>
       <Switch>
         <Route exact path="/" component={HomeContainer} /> 
+        <Route path="/success" component={Success}/>
       </Switch>
     </div>
   </BrowserRouter>

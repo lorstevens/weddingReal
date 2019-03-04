@@ -41,16 +41,24 @@ class Todo extends Component {
     let { todos } = this.state;
 
     return (
-      <div id="rsvp" className='container'>
-        <div className='header-box'>
-          <h3 className='headings'>RSVP</h3>
+      <div id="rsvp" className="rsvp-container">
+      <img  className="ivy" alt="ivy" src="/assets/ivy3.png"></img>
+        <div className='container' id="rsvp-box">
+          <div className='header-box'>
+            <h3 className='headings'>RSVP</h3>
+          </div>
+           
+          <Input getTodos={this.getTodos} />
+          
         </div>
-        <Input getTodos={this.getTodos} />
-
+        
       </div>
     )
   }
 }
+
+
+
 
 export default Todo;
 
