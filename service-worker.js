@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lorstevens/weddingReal/precache-manifest.4e05fd99bfd2702f3007e7e20eba7824.js"
+  "/weddingReal/precache-manifest.cc9e206aa6971f1cd25002d2899b4a20.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lorstevens/weddingReal/index.html", {
+workbox.routing.registerNavigationRoute("/weddingReal/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
