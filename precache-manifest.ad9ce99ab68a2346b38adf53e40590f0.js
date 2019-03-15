@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/weddingReal/static/css/main.0cdedf88.chunk.css"
   },
   {
-    "revision": "23dc503ae3e2c8bc5dcd2b6d121c8d66",
+    "revision": "96f5d10e31584062cffe6e949bb90cf4",
     "url": "/weddingReal/index.html"
   }
 ];
