@@ -16,7 +16,7 @@ export const Gifts = () => {
 
 
                         <p>We are so humbled you want to contribute to our new life! </p>
-                        <p>Your presence on our big day is enough, but if you'd like to give us a gift, we are registered at the links below. <span style={{'fontWeight': '700'}}>THANK YOU!</span> </p>
+                        <p>Your presence on our big day is enough, but if you'd like to give us a gift, we are registered at the links below. We also are new to this house/wedding thing, so anything on the registry you think we're missing, we will love and appreciate as well! <span style={{'fontWeight': '700'}}>THANK YOU!</span> </p>
 
                     </div>
                 

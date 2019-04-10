@@ -1,78 +1,78 @@
-.parallax4 {
-    z-index: 2;
-    padding: 0px;
-    margin: 0px;
-	height: 740px; 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.55);
-    
+.container {
+    position: relative;
 }
 
-.headerImg {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-}
-
-.overlay:before{
+.gradient {
+    z-index: 0;
+    width: 100%;
+    height: 650px;
     position: absolute;
-    content:" ";
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+    opacity: 0.8;
+    background-image: radial-gradient(circle farthest-corner at center, #ababab 0%, #848484 100%)
+}
+
+.headerImage {
+    height: 650px;
+    width: 100%;
     display: block;
-    z-index:0;
-    background-color: rgba(255,0,0,0.5);
-  }
+    background-image: url('/assets/header8.jpg');
+    background-repeat: no-repeat;
+
+  background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-  .container{
-      position: relative;
-  }
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-  .text-block {
-    position: absolute;
-    left: 50%;                        
-    top: 70%;                        
-    transform: translate(-50%, -50%); 
-    color: white;
-  }
+#header {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    margin: 10px;
+}
 
-  .text-block h1{
+.text-block h1 {
     font-family: 'Great Vibes', cursive;
-    font-size:6rem;
-    font-weight: 500;
+    font-size: 9rem;
+    font-weight: 600;
     margin-bottom: -20px;
     text-align: center;
-  }
+    position: relative;
+    color: #555B6E;
+    margin-top: 0px;
+}
 
-
-  .text-block h4{
+.text-block h4 {
     font-family: 'Great Vibes', cursive;
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-  }
-
-
-/* .headerText { 
-    position: absolute;  
-    left: 50%;                        
-    top: 50%;                        
-    transform: translate(-50%, -50%); 
-    color: #fff;
-    font-family: 'Great Vibes', cursive;
-    font-size:6rem;
-    font-weight: 600;
-
+    position: relative;
+    color: #b1d3f3;
 }
 
-.small {
-    color:red;
-    font-size: 2rem;
-} */
+
+
+@media screen and (max-width: 768px){
+    .text-block h1{
+      font-size: 7rem;
+      font-weight: 600px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    .text-block h1{
+      font-size: 5rem;
+      font-weight: 600px;
+    }
+  
+  }

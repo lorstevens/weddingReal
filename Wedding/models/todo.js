@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const TodoSchema = new Schema({
   action: {
     type: String,
-    required: [true, 'The todo text field is required']
+    required: [false, 'The todo text field is required']
   },
   firstName: {
     type: String,
@@ -18,6 +18,10 @@ const TodoSchema = new Schema({
   rsvp: {
     type: String,
     required: [true, 'The todo text field is required']
+  },
+  guest: {
+    type: String,
+    required: [false, 'The todo text field is required']
   }
 })
 

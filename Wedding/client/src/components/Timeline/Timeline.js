@@ -18,7 +18,7 @@ export const TimeLine = () => {
                         <span className='details'>The Mansion, 2312 San Gabriel St, Austin, TX 78705</span>
                         <span className='details2'>Also called the Texas Federation of Women's Club. Get ready for a little bit of class!</span>
                         <ul>
-                            <li className="details"> <img src="/assets/directions.png" alt="directions"/> <a target="_blank" href="https://goo.gl/maps/v6hRHq1yJiF2">Directions to Venue</a> 
+                            <li className="details"> <img src="/assets/directions.png" alt="directions"/> <a target="blank" href="https://goo.gl/maps/v6hRHq1yJiF2">Directions to Venue</a> 
                             </li>
                         </ul>
                      </p>

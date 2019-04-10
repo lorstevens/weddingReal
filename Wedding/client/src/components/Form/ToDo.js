@@ -41,12 +41,10 @@ class Todo extends Component {
     let { todos } = this.state;
 
     return (
-      <div id="rsvp" className="rsvp-container">
-      <img  className="ivy" alt="ivy" src="/assets/ivy3.png"></img>
-        <div className='container' id="rsvp-box">
-          <div className='header-box'>
-            <h3 className='headings'>RSVP</h3>
-          </div>
+      <div >
+
+        <div>
+         
            
           <Input getTodos={this.getTodos} />
           
@@ -63,3 +61,4 @@ class Todo extends Component {
 export default Todo;
 
 // <ListTodo todos={todos} deleteTodo={this.deleteTodo}/>
+// <img  className="ivy" alt="ivy" src="/assets/ivy3.png"></img>

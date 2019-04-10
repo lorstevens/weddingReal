@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import {Header} from '../components/Header/Header'
 // import {Form} from '../components/Form/Form'
 import {Footer} from '../components/Footer/Footer'
+import {Accomodations} from '../components/Accomodations/Accomodations'
 import {Nav} from '../components/Nav/Nav'
 import {Gifts} from '../components/Gifts/Gifts'
 import {TimeLine} from '../components/Timeline/Timeline'
@@ -16,10 +17,11 @@ export class HomeContainer extends Component {
     render() {
         return (
             <div>
-           <Nav />
+           
             <Header />
             <TimeLine />
             <Info/>
+            <Accomodations/>
             <AboutUs/>
             <Gifts/>
             <Todo/>

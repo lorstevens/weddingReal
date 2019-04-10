@@ -67,6 +67,12 @@
     font-size: 20px;
     border-left: 5px solid #daad2c9e;
   }
+
+  @media screen and (max-width: 1024px){
+    li p:nth-child(2) {
+      border-left: 0px solid;
+    }
+}
   
   li p span {
     display: block;
@@ -140,3 +146,31 @@
   opacity: .09;
   width: 15%
   }
+
+/* MEDIA QUERIES */
+  @media screen and (max-width: 1024px){
+
+    li{
+      display: block;
+      line-height: 1.5;
+      padding-top: 20px;
+    }
+
+    li p{
+      padding: 0px;
+    }
+
+    li p:nth-child(2) {
+      border-left: 0px solid;
+    }
+
+    ul {
+      width: auto;
+      margin: auto;
+    }
+
+    li p:nth-child(1):after {
+      display: none;
+    }
+}
+

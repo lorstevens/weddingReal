@@ -1,13 +1,15 @@
-.registry{
-    background:#ffffff;
-    padding:50px;
+.registry {
+    background: #ffffff;
+    padding: 50px;
     width: 500px;
 }
-.registry p{
+
+.registry p {
     line-height: 1.4;
     margin-bottom: 5px;
 }
-.registry h4{
+
+.registry h4 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -16,27 +18,124 @@
     margin-top: 30px;
 }
 
-.registry a{
+.registry a {
     font-weight: 700;
 }
 
-.header-box{
+.header-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.block-container{
-    display: flex;
+.block-container {
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.hotel{
-    font-size: 13px;
-    margin-top:2px;
-    margin-bottom:2px;
+.hotel i {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.hotel p{
+    text-align: center !important;
+}
+
+.hotelContainer{
+    display: flex;
+    align-items: center;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 550px;
+  
+}
+
+.box h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    color: #3D518C;
+    margin-top:10px;
+    text-align: center;
+}
+
+.box p {
+    line-height: 1.3;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.box a {
+    margin: 10px;
+    font-weight: 600;
+}
+
+.fas{
+    font-weight: 900;
+    font-size: 32px;
+    color: #3d518c;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.containerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* padding: 55px; */
+}
+
+#firstBox{
+    background-color: rgba(232, 204, 124, 0.38);
+}
+
+#secondBox{
+    background-color: #bdc7ac;
+}
+
+
+.boxBox{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+@media screen and (max-width: 768px){
+    .box{
+        width: 100%;
+    }
 }

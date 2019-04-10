@@ -6,9 +6,9 @@ import'./style.css'
 export const Nav = props =>
     (
         <nav>
-        <div class="nav-wrapper">
+        <div className="nav-wrapper">
          
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><a href="#timeLine">Timeline</a></li>
             <li><a href="#info">Info</a></li>
             <li><a href="#aboutUs">About Us</a></li>

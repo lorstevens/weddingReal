@@ -1,22 +1,24 @@
 import React from 'react';
-import'./style.css'
+import './style.css'
 
 
 
 export const Header = () => {
-    return(
+  return (
+<div>
+    <div className="headerImage"  >
+      
+<div className="gradient"></div>
+    <div className="headerContainer">
+    <div className="text-block">
+      <div className="header"><h1>Andrew & Lorna</h1></div>
+      <div className="header"><h4>July 13, 2019 | Austin, TX | The Mansion</h4></div>
+    </div>
+  </div>
+    </div>
 
-        <div className="parallax4 " data-type="content" style={{backgroundImage:"url(/assets/header.jpg)"}}>
-       
-        
-        <div className="text-block">
-        <h1>Andrew & Lorna</h1>
-          <h4>July 13, 2019 | Austin, TX | The Mansion</h4>
-        </div>
-       
-          
-      </div>
-   
-        
-    )
+
+</div>
+
+  )
 }

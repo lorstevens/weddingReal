@@ -2,9 +2,11 @@
   "name": "Wedding",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://wedding-react-app.herokuapp.com",
   "scripts": {
     "start": "node index.js",
     "start-watch": "nodemon index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
   },
   "license": "MIT",

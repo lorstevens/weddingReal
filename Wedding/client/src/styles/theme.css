@@ -17,3 +17,20 @@
 a{
     color: #bdc7ac;
 }
+
+  
+  
+  @media screen and (max-width: 600px){
+    .headings{
+      font-size: 38px;
+    }
+  
+  }
+
+    
+  @media screen and (max-width: 411px){
+    .headings{
+      font-size: 30px;
+    }
+  
+  }

@@ -1,11 +1,12 @@
 
 
-.rsvp-container{
+/* .rsvp-container{
+    background-image: url('/assets/wood1.jpg')
    
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+ 
+} */
 
-#rsvp-box{
+/* #rsvp-box{
     width: 50%;
 }
 
@@ -18,7 +19,7 @@
 .row h6{
     margin-top: 20px;
     color: #555B6E
-}
+} */
 
 /* Radio Buttons */
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
@@ -52,3 +53,15 @@ input[type=text]:not(.browser-default):focus:not([readonly]){
 button:focus{
     background-color: #A7BED3;   
 }
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px){
+    #rsvp-box{
+        width: 100%;
+    }
+  
+  }

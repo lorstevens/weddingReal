@@ -40,3 +40,55 @@
     left:20px;
     opacity: .09;
 }
+
+
+#aboutUsRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p{
+    line-height: 1.2;
+}
+
+
+.image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.spanColor{
+    color: #A7BED3;
+    font-weight: 600;
+}
+
+.quote{
+    font-style: italic;
+}
+
+
+/*MEDIA QUERIES */
+@media screen and (max-width: 768px){
+    #aboutUsRow{
+        flex-wrap: wrap;
+    }
+
+    #tree{
+        -webkit-transform: rotate(0deg);  
+        -moz-transform: rotate(0deg); 
+        transform: rotate(0deg);
+        width: 100%;
+    }
+
+
+.about-us{
+    padding: 10px;
+}
+
+.about{
+    width: 100%;
+}
+  
+  }
